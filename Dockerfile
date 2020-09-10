@@ -1,5 +1,8 @@
-# x11docker/mate
+# x11docker/mate  -- from mviereck forked - to build for arm platforms and compare with my 
+# x11docker/lmde (which gives cinnamon desktop)
 # 
+# docker buildx build -t andrewufrank/x11docker-mate:v1 --platform linux/arm/v7,linux/arm64,linux/amd64  --push .
+
 # Run Mate desktop in docker. 
 # Use x11docker to run image. 
 # Get x11docker from github: 
